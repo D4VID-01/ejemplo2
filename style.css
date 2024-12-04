@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+article{
+    box-sizing: border-box;
+    height: auto;
+    width: 370px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 0px #000000;
+}
+
+article .contenido{
+    padding: 20px 20px 0 20px;
+}
+
+.contenido img{
+    border-radius: 20px;
+}
+
+.contenido h1{
+    display: inline-block;
+    background-color: hsl(47, 88%, 63%);
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin: 15px 0 0 0;
+    font-size: .9em;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 700;
+}
+
+.contenido h1:hover{
+    background-color: #000000;
+    color: hsl(47, 88%, 63%);
+}
+
+.contenido span{
+    display: block;
+    padding-top: 5px;
+    margin: 6px 0 16px;
+    font-family: "Times New Roman";
+    font-size: 14px;
+}
+
+.contenido h2{
+    font-family: "Times New Roman";
+}
+
+.contenido p{
+    font-family: "Times New Roman";
+    color: gray;
+}
+
+article .logo{
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    
+}
+
+.logo img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.logo span{
+    padding-left: 15px;
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+}
